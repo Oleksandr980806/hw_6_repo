@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.block{
+    width: 225px;
+    height: 275px;
+    background-color: white;
+    padding: 16px  12px 12px 12px;
+    border-radius: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 22px 0;
+    color: #3f434a;
+}
+.close{
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.event-color-yellow{
+    width: 201px;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #3f434a;
+    border-radius: 10px;
+    border-left: 5px solid #ffd240;
+    background-color: yellow;
+    margin-bottom: 8px;
+    padding: 16px;
+
+}
+.event-color-blue{
+    width: 201px;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #3f434a;
+    border-radius: 10px;
+    border-left: 5px solid blue;
+    background-color: lightskyblue;
+    margin-bottom: 8px;
+    padding: 16px;
+}
+.event-color-green{
+    width: 201px;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #3f434a;
+    border-radius: 10px;
+    border-left: 5px solid green;
+    background-color: lightgreen;
+    margin-bottom: 12px;
+    padding: 16px;
+}
+
+.event-color-blue:hover{
+    background-color: lightgrey;
+    text-decoration: underline  ;
+}
+.event-color-yellow:hover{
+    background-color: lightgrey;
+    text-decoration: underline;
+}
+.event-color-green:hover{
+    background-color: lightgrey;
+    text-decoration: underline;
+}
+
+.close:hover{
+    background-color: grey;
+}
