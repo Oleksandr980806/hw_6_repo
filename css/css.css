@@ -35,7 +35,7 @@ body{
     background-color: lightgray;
     border-radius: 10px;
     font-size: 15px;
-    border: none;
+    /*border: 1px;*/
     cursor: pointer;
     transition: 0.5s;
 
@@ -84,19 +84,11 @@ body{
     padding: 16px;
 }
 
-.event-color-blue:hover{
+.event-color-blue:hover,
+.event-color-green:hover,
+.event-color-yellow:hover {
     background-color: lightgrey;
     text-decoration: underline  ;
 }
-.event-color-yellow:hover{
-    background-color: lightgrey;
-    text-decoration: underline;
-}
-.event-color-green:hover{
-    background-color: lightgrey;
-    text-decoration: underline;
-}
 
-.close:hover{
-    background-color: grey;
-}
+
